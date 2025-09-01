@@ -152,6 +152,60 @@ section p, section li {
   color: #555;
 }
 
+/*sobre mim*/
+.sobre-mim {
+  padding: 4rem 2rem;
+  background: #fafafa;
+}
+
+.sobre-mim .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  max-width: 1100px;
+  margin: 0 auto;
+  flex-wrap: wrap; /* Responsivo */
+}
+
+.sobre-mim .texto {
+  flex: 1 1 55%;
+}
+
+.sobre-mim h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.sobre-mim p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #555;
+}
+
+.sobre-mim .registro {
+  margin-top: 1rem;
+  font-weight: bold;
+  color: #666;
+}
+
+.sobre-mim .foto {
+  flex: 1 1 40%;
+  display: flex;
+  justify-content: center;
+}
+
+.sobre-mim .foto img {
+  width: 100%;
+  max-width: 320px;
+  border-radius: 12px;
+  border: 6px solid #007b83; /* cor da borda (suave, acolhedora) */
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  object-fit: cover;
+}
+
+
 
 /* Contato */
 #contato p {
