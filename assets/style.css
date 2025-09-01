@@ -34,17 +34,29 @@ body {
   justify-content: space-between;
   align-items: center;
 }
-#header .logo {
-  font-size: 15px;
-  font-weight: 500;
+
+/* Container da logo */
+#header .logo a {
   display: flex;
   align-items: center;
+  gap: 10px; /* espaço entre imagem e texto */
+  text-decoration: none; /* remove sublinhado do link */
 }
 
+/* Imagem da logo */
 #header .logo img {
-  max-height: 50px;
-  margin-right: 10px;
+  max-height: 50px; /* ajusta altura da imagem */
+  width: auto;      /* mantém proporção */
+  display: block;   /* evita pequenas quebras */
 }
+
+/* Texto da logo */
+#header .logo {
+  font-size: 20px;
+  font-weight: 600;
+  color: #000; /* ajuste conforme seu tema */
+}
+
 
 #navbar {
   float: right;
