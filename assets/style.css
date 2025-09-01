@@ -24,6 +24,7 @@ body {
 #header{
   padding: 20px 0;
   box-shadow: 0px 2px 8px rgba(0,0,0,0.08);
+  background: #fff;
   position: sticky;
   top: 0;
   z-index: 1000;
@@ -168,7 +169,6 @@ section p, section li {
   color: #555;
 }
 
-/*sobre mim*/
 .sobre-mim {
   padding: 4rem 2rem;
   background: #fafafa;
@@ -221,6 +221,63 @@ section p, section li {
   object-fit: cover;
 }
 
+/* servicos */
+.beneficios {
+  padding: 80px 20px;
+  background: #f9f9f9;
+  text-align: center;
+}
+
+.beneficios h2 {
+  font-size: 2rem;
+  margin-bottom: 40px;
+  color: #333;
+}
+
+.beneficios .cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 30px;
+}
+
+.card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 12px;
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.08);
+  cursor: pointer;
+}
+
+.card img {
+  width: 100%;
+  display: block;
+  transition: transform 0.5s ease;
+}
+
+.card:hover img {
+  transform: scale(1.1);
+}
+
+.card .overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.6);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.4s ease;
+}
+
+.card:hover .overlay {
+  opacity: 1;
+}
+
+.card .overlay h3 {
+  font-size: 1.4rem;
+  text-align: center;
+}
 
 
 /* Contato */
