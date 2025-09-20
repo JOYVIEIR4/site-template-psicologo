@@ -16,6 +16,12 @@
     href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
     rel="stylesheet">
 
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+
     <!-- CSS do slick -->
     <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
     <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
@@ -38,7 +44,7 @@
 
         <h1 class="logo">
             <a href="index.html">
-            <img src="img/logo.png" alt="Logo do Consultório"> [Seu Consultório aqui] </a>
+            <img src="img/Logo_DrLeticia.png" alt="Logo do Consultório"> <span style="color:#91b7d9;"> Psicóloga Letícia Oliveira</span></a>
         </h1> 
 
         <nav id="navbar" class="navbar">
@@ -54,75 +60,114 @@
       </div>
     </header>
 
-    <!-- Seção Sobre -->
-    <section id="sobre" aria-labelledby="titulo-sobre" class="sobre-mim">
-      <div class="container">
+    <section id="inicio" class="hero d-flex align-items-center">
+        <video autoplay muted loop playsinline id="video-background" class="w-100 bject-fit-cover">
+          <source src="Design_DrLeticia.mp4" type="video/mp4">
+        </video>
+    </section>
+
+
+    <!---------- Sobre a Psicóloga ---------->
+    <section id="sobre" class="hero">
+      <div class="hero-texto">
         <div class="texto">
-          <h2 id="titulo-sobre">Sobre Mim</h2>
+          <h2>Sobre</h2>
           <p>
-            Sou <strong>Psicóloga</strong> dedicada ao cuidado com a saúde mental e ao desenvolvimento humano.
-            Minha trajetória é marcada pela <strong>escuta empática</strong>, pelo <strong>acolhimento</strong> e
-            pelo compromisso em oferecer um espaço seguro para que cada pessoa possa se conhecer melhor,
-            enfrentar desafios e construir uma vida mais equilibrada e saudável.
+            A psicóloga <strong>Letícia Oliveira</strong> é graduada pela <strong>Universidade São Judas</strong>.
+            Sua prática clínica é fundamentada na <strong>Terapia Cognitivo-Comportamental (TCC)</strong>, 
+            uma abordagem que busca compreender a relação entre pensamentos, emoções e comportamentos, 
+            promovendo mudanças reais e sustentáveis no cotidiano de adolescentes e adultos.
           </p>
-          <p class="registro">CRP 00/00000</p>
         </div>
 
-        <div class="foto">
-          <img src="img/psicologa.jpeg" alt="Foto da Psicóloga" />
+         <div class="foto">
+          <img src="img/psicologa.jpeg" alt="Foto da Psicóloga Letícia Oliveira">
         </div>
-  </div>
+      </div>
     </section>
+
+
+    <!---------- Missão, Valores, e Diferenciais ---------->
+    <section id="principios" class="principios">
+      <div class="container">
+        <h2>Missão, Valores e Diferenciais</h2>
+        <div class="principios-grid">
+          <div class="item">
+            <i class="bi bi-bullseye"></i>
+            <h3>Missão</h3>
+            <p>
+              Promover saúde mental com ética, respeito e empatia, utilizando técnicas da Terapia Cognitivo Comportamental para transformar pensamentos em atitudes mais saudáveis.
+            </p>
+          </div>
+          <div class="item">
+            <i class="bi bi-heart"></i>
+            <h3>Valores</h3>
+            <p>
+              Acolhimento, sigilo, respeito à individualidade e compromisso com o desenvolvimento humano.
+            </p>
+          </div>
+          <div class="item">
+            <i class="bi bi-star"></i>
+            <h3>Diferenciais</h3>
+            <p>
+              Atendimento humanizado, embasamento científico e foco em resultados práticos que melhoram a qualidade de vida.
+            </p>
+          </div>
+        </div>
+      </div>
 
     <!-- Seção Serviços -->
    <section id="beneficios" class="beneficios">
   <div class="container">
-    <h2>Benefícios da Psicoterapia</h2>
+    <h2>Serviços</h2>
     <div class="cards">
       <div class="card">
         <img src="img/psicologia1.png" alt="Autoconhecimento">
         <div class="overlay">
-          <h3>Autoconhecimento</h3>
+          <h4>Psicoterapia individual para adolescentes e adultos.</h4>
         </div>
       </div>
 
       <div class="card">
         <img src="img/psicologia2.jpg" alt="Controle da Ansiedade">
         <div class="overlay">
-          <h3>Controle da Ansiedade</h3>
+          <h4>Atendimento online</h4>
         </div>
       </div>
 
       <div class="card">
         <img src="img/psicologia3.png" alt="Relacionamentos">
         <div class="overlay">
-          <h3>Relacionamentos</h3>
+          <h4>Orientação em casos de ansiedade, depressão, autoestima, estresse, dificuldades emocionais e relacionamentos.</h4>
         </div>
       </div>
+    </div>
 
-      <div class="card">
-        <img src="img/psicologia4.jpg" alt="Equilíbrio Emocional">
-        <div class="overlay">
-          <h3>Equilíbrio Emocional</h3>
-        </div>
-      </div>
+    <!-- Destaque final -->
+    <div class="texto-destaque">
+      <h4>
+        Meu objetivo é oferecer um espaço seguro e acolhedor, onde você possa compartilhar suas experiências e encontrar caminhos para superar desafios e alcançar maior bem-estar emocional.
+      </h4>
     </div>
   </div>
 </section>
 
-
-    <!-- Seção Contato -->
-    <section id="local">
-        <h2>Contato</h2>
-        <p>Email: contato@consultorio.com</p>
-        <p>Telefone: (00) 00000-0000</p>
-        <p>Endereço: Rua Exemplo, 123 - Cidade</p>
-    </section>
-
-    <!-- Rodapé -->
-    <footer>
-        <p>&copy; Copyright Inotec Company. All Rights Reserved.</p>
-    </footer>
+  <div class="col-lg-6 col-md-12 footer-form">
+    <h4>Envie uma mensagem</h4>
+    <form action="mailto:seuemail@exemplo.com" method="post" enctype="text/plain">
+      <div class="form-group">
+        <input type="text" name="nome" placeholder="Seu nome" required>
+     </div>
+      <div class="form-group">
+        <input type="email" name="email" placeholder="Seu email" required>
+      </div>
+     <div class="form-group">
+        <textarea name="mensagem" rows="4" placeholder="Escreva sua mensagem..." required></textarea>
+      </div>
+      <button type="submit">Enviar</button>
+    </form>
+</div>
+  
 </body>
 <script type="text/javascript" src="script.js"></script>
 </html>
